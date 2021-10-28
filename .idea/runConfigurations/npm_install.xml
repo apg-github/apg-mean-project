@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="npm install" type="NodeJSConfigurationType" node-parameters="run install" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>

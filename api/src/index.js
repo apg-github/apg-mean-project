@@ -1,5 +1,5 @@
+require("./db/mongoose")
 const express = require("express")
-
 const apiServer = express()
 
 apiServer.listen(3000, () => {
