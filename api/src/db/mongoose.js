@@ -8,7 +8,7 @@ async function dbConnection() {
         })
         console.log("Connected to mongo db successfully")
     } catch (e) {
-        console.error('Error occurred while connecting to db:' + e)
+        console.error('Error occurred while connecting to db: ' + e)
     }
 }
 

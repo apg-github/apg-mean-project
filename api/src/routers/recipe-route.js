@@ -12,4 +12,14 @@ router.get('/recipes', async (req, res) => {
     }
 })
 
+router.post('/recipes', async (req, res) => {
+    const recipe = new Recipe(req.body)
+    try {
+        await recipe.save()
+        res.status(201).send(recipe)
+    } catch (e) {
+        res.status(500).send(e)
+    }
+})
+
 module.exports = router

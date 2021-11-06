@@ -1,0 +1,6 @@
+<h1> List of actual recipes</h1>
+<a routerLink="/create-recipe"> Create new recipe</a>
+<div *ngFor="let recipe of recipes">
+    <h3>{{recipe.title}}</h3>
+    <div>{{recipe.description}}</div>
+</div>
